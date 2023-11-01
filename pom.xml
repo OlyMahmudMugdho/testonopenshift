@@ -7,7 +7,7 @@
   <groupId>com.example</groupId>
   <artifactId>testonopenshift</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>testonopenshift Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -20,6 +20,15 @@
   </properties>
 
   <dependencies>
+
+    <!-- https://mvnrepository.com/artifact/io.fabric8/fabric8-maven-plugin -->
+<dependency>
+  <groupId>io.fabric8</groupId>
+  <artifactId>fabric8-maven-plugin</artifactId>
+  <version>4.4.2</version>
+</dependency>
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
